@@ -15,43 +15,6 @@ namespace Sherwin
     public partial class Form1 : Form
     {
         private int i = 0;
-        bool button1clicked = false;
-        bool button2clicked = false;
-        bool button3clicked = false;
-        bool button4clicked = false;
-        bool button5clicked = false;
-        bool button6clicked = false;
-        bool button7clicked = false;
-        bool button8clicked = false;
-        bool button9clicked = false;
-        bool button10clicked = false;
-        bool button11clicked = false;
-        bool button12clicked = false;
-        bool button13clicked = false;
-        bool button14clicked = false;
-        bool button15clicked = false;
-        bool button16clicked = false;
-        bool button17clicked = false;
-        bool button18clicked = false;
-        bool button19clicked = false;
-        bool button20clicked = false;
-        bool button21clicked = false;
-        bool button22clicked = false;
-        bool button23clicked = false;
-        bool button24clicked = false;
-        bool button25clicked = false;
-        bool button26clicked = false;
-        bool button27clicked = false;
-        bool button28clicked = false;
-        bool button29clicked = false;
-        bool button30clicked = false;
-        bool button31clicked = false;
-        bool button32clicked = false;
-        bool button33clicked = false;
-        bool button34clicked = false;
-        bool button35clicked = false;
-        bool button36clicked = false;
-
         private string[] numbertag = new string[36];
         private string [] paintname = new string [36];
 
