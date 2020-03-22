@@ -1,0 +1,9 @@
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\bin\Debug\Sherwin.exe.config
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\bin\Debug\Sherwin.exe
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\bin\Debug\Sherwin.pdb
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\obj\Debug\Sherwin.csprojAssemblyReference.cache
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\obj\Debug\Sherwin.Form1.resources
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\obj\Debug\Sherwin.Properties.Resources.resources
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\obj\Debug\Sherwin.csproj.GenerateResource.cache
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\obj\Debug\Sherwin.exe
+C:\Users\Imtiaz Windows\source\repos\Sherwin\Sherwin\obj\Debug\Sherwin.pdb
