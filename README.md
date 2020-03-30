@@ -2,7 +2,7 @@
 
 This is a program that I wrote for the Sherwin Williams 2020 Sales Competition. 
 
-What it does?
+What does it do?
 The program takes in a file of 1534 different sherwin williams colors. Then the user has the ability to combine current sherwin williams colors and make a new color based off of the customers preference. The color can then be loggec by assigning a id to the customer. 
 
 THE USER INTERFACE
