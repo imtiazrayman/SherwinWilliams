@@ -10,6 +10,9 @@ THE USER INTERFACE
  
 ![image](https://user-images.githubusercontent.com/61753398/77812032-f492cc80-7074-11ea-82c1-dc98e0078d63.png)
 
+![image](https://user-images.githubusercontent.com/61753398/77865747-f3d97200-71fd-11ea-8060-52cb28a95797.png)
+
+![image](https://user-images.githubusercontent.com/61753398/77865754-f89e2600-71fd-11ea-9fa8-e3591ce90c65.png)
 
 ![image](https://user-images.githubusercontent.com/61753398/77812060-40457600-7075-11ea-8b92-b2a5ba0962c9.png)
 
