@@ -43,11 +43,12 @@ namespace Sherwin
             this.label14 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtpercent2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -91,10 +92,32 @@ namespace Sherwin
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel9.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -102,6 +125,8 @@ namespace Sherwin
             this.panel8.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel13.SuspendLayout();
             this.SuspendLayout();
             // 
             // label5
@@ -120,7 +145,7 @@ namespace Sherwin
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label6.Font = new System.Drawing.Font("Bahnschrift Condensed", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(1126, 9);
+            this.label6.Location = new System.Drawing.Point(1136, 9);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 33);
@@ -155,6 +180,8 @@ namespace Sherwin
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(319, 117);
             this.panel2.TabIndex = 14;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.panel2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseClick);
             // 
             // label10
             // 
@@ -192,6 +219,7 @@ namespace Sherwin
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(305, 117);
             this.panel3.TabIndex = 18;
+            this.panel3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseClick);
             // 
             // label13
             // 
@@ -229,7 +257,7 @@ namespace Sherwin
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(415, 14);
+            this.label1.Location = new System.Drawing.Point(415, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 17);
             this.label1.TabIndex = 22;
@@ -242,23 +270,14 @@ namespace Sherwin
             this.txtpercent2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpercent2.Location = new System.Drawing.Point(51, 175);
             this.txtpercent2.Name = "txtpercent2";
-            this.txtpercent2.Size = new System.Drawing.Size(100, 25);
+            this.txtpercent2.Size = new System.Drawing.Size(126, 25);
             this.txtpercent2.TabIndex = 25;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(787, 175);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 25);
-            this.textBox1.TabIndex = 26;
+            this.txtpercent2.Text = "Enter Color Code";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.panel4.Controls.Add(this.radioButton3);
-            this.panel4.Controls.Add(this.radioButton2);
-            this.panel4.Controls.Add(this.radioButton1);
+            this.panel4.Controls.Add(this.panel11);
             this.panel4.Controls.Add(this.panel7);
             this.panel4.Controls.Add(this.panel6);
             this.panel4.Controls.Add(this.panel5);
@@ -268,52 +287,62 @@ namespace Sherwin
             this.panel4.Size = new System.Drawing.Size(1660, 850);
             this.panel4.TabIndex = 27;
             // 
-            // radioButton3
+            // panel11
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton3.Location = new System.Drawing.Point(567, 227);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(89, 18);
-            this.radioButton3.TabIndex = 32;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.panel11.AutoScroll = true;
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.panel11.Controls.Add(this.panel10);
+            this.panel11.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel11.Location = new System.Drawing.Point(432, 227);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(350, 215);
+            this.panel11.TabIndex = 2;
             // 
-            // radioButton2
+            // label4
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton2.Location = new System.Drawing.Point(693, 227);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(89, 18);
-            this.radioButton2.TabIndex = 31;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(113, 90);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(79, 14);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Selected RGB";
             // 
-            // radioButton1
+            // label3
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton1.Location = new System.Drawing.Point(441, 227);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(89, 18);
-            this.radioButton1.TabIndex = 30;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(113, 62);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(115, 14);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Selected Color Code";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(113, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(118, 14);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Selected Color Name";
+            // 
+            // panel12
+            // 
+            this.panel12.Location = new System.Drawing.Point(4, 3);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(94, 103);
+            this.panel12.TabIndex = 0;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(68)))));
+            this.panel7.Controls.Add(this.button42);
+            this.panel7.Controls.Add(this.button41);
             this.panel7.Controls.Add(this.panel9);
             this.panel7.Location = new System.Drawing.Point(788, 227);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(385, 200);
+            this.panel7.Size = new System.Drawing.Size(385, 215);
             this.panel7.TabIndex = 29;
             // 
             // panel9
@@ -353,6 +382,7 @@ namespace Sherwin
             this.tableLayoutPanel2.Controls.Add(this.button28, 3, 1);
             this.tableLayoutPanel2.Controls.Add(this.button36, 5, 2);
             this.tableLayoutPanel2.Controls.Add(this.button35, 4, 2);
+            this.tableLayoutPanel2.ForeColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(33, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
@@ -547,11 +577,14 @@ namespace Sherwin
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(68)))));
+            this.panel6.Controls.Add(this.button39);
+            this.panel6.Controls.Add(this.button40);
             this.panel6.Controls.Add(this.panel8);
             this.panel6.Location = new System.Drawing.Point(41, 227);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(385, 200);
+            this.panel6.Size = new System.Drawing.Size(385, 215);
             this.panel6.TabIndex = 28;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // panel8
             // 
@@ -589,6 +622,7 @@ namespace Sherwin
             this.tableLayoutPanel1.Controls.Add(this.button6, 5, 0);
             this.tableLayoutPanel1.Controls.Add(this.button5, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.button4, 3, 0);
+            this.tableLayoutPanel1.ForeColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(33, 1);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
@@ -753,6 +787,7 @@ namespace Sherwin
             // button6
             // 
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.Transparent;
             this.button6.Location = new System.Drawing.Point(238, 3);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(41, 50);
@@ -784,10 +819,11 @@ namespace Sherwin
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(68)))));
+            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.comboBox2);
             this.panel5.Controls.Add(this.comboBox3);
             this.panel5.Controls.Add(this.txtpercent2);
-            this.panel5.Controls.Add(this.textBox1);
             this.panel5.Controls.Add(this.btnrandomcolor);
             this.panel5.Controls.Add(this.label11);
             this.panel5.Controls.Add(this.label14);
@@ -803,6 +839,15 @@ namespace Sherwin
             this.panel5.Size = new System.Drawing.Size(1132, 218);
             this.panel5.TabIndex = 27;
             // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(786, 175);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(126, 25);
+            this.textBox2.TabIndex = 32;
+            this.textBox2.Text = "Enter Color Code";
+            // 
             // comboBox2
             // 
             this.comboBox2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -817,7 +862,7 @@ namespace Sherwin
             // 
             this.comboBox3.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(984, 172);
+            this.comboBox3.Location = new System.Drawing.Point(984, 175);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 25);
             this.comboBox3.TabIndex = 30;
@@ -835,6 +880,234 @@ namespace Sherwin
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(305, 114);
             this.panel1.TabIndex = 20;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
+            this.panel1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseClick);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(492, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(147, 18);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Press to Select Color";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Yu Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(113, 3);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(136, 17);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Your Selected Color";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Yu Gothic", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(113, 20);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(70, 14);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Color Name";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Yu Gothic", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(113, 48);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(115, 14);
+            this.label12.TabIndex = 34;
+            this.label12.Text = "Selected Color Code";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Yu Gothic", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(113, 76);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(79, 14);
+            this.label15.TabIndex = 35;
+            this.label15.Text = "Selected RGB";
+            // 
+            // button37
+            // 
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button37.Location = new System.Drawing.Point(229, 19);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(100, 23);
+            this.button37.TabIndex = 36;
+            this.button37.Text = "Clear Fields";
+            this.button37.UseVisualStyleBackColor = true;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
+            // 
+            // button38
+            // 
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button38.Location = new System.Drawing.Point(229, 66);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(100, 25);
+            this.button38.TabIndex = 37;
+            this.button38.Text = "Purchase";
+            this.button38.UseVisualStyleBackColor = true;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
+            // 
+            // button39
+            // 
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button39.ForeColor = System.Drawing.Color.White;
+            this.button39.Location = new System.Drawing.Point(235, 189);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(48, 23);
+            this.button39.TabIndex = 1;
+            this.button39.Text = ">";
+            this.button39.UseVisualStyleBackColor = true;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
+            // 
+            // button40
+            // 
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button40.ForeColor = System.Drawing.Color.White;
+            this.button40.Location = new System.Drawing.Point(94, 189);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(48, 23);
+            this.button40.TabIndex = 33;
+            this.button40.Text = "<";
+            this.button40.UseVisualStyleBackColor = true;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
+            // 
+            // button41
+            // 
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button41.ForeColor = System.Drawing.Color.White;
+            this.button41.Location = new System.Drawing.Point(241, 189);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(48, 23);
+            this.button41.TabIndex = 2;
+            this.button41.Text = ">";
+            this.button41.UseVisualStyleBackColor = true;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
+            // 
+            // button42
+            // 
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button42.ForeColor = System.Drawing.Color.White;
+            this.button42.Location = new System.Drawing.Point(93, 189);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(48, 23);
+            this.button42.TabIndex = 34;
+            this.button42.Text = "<";
+            this.button42.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            this.textBox3.Location = new System.Drawing.Point(6, 17);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(214, 25);
+            this.textBox3.TabIndex = 38;
+            this.textBox3.Text = "Enter a Personalized Color Name";
+            this.textBox3.Visible = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 66);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(214, 25);
+            this.textBox1.TabIndex = 39;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Yu Gothic", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(3, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(255, 14);
+            this.label16.TabIndex = 40;
+            this.label16.Text = "This is a USCC color, Personalization Activated";
+            this.label16.Visible = false;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(68)))));
+            this.panel10.Controls.Add(this.panel13);
+            this.panel10.Controls.Add(this.panel12);
+            this.panel10.Controls.Add(this.label8);
+            this.panel10.Controls.Add(this.label9);
+            this.panel10.Controls.Add(this.label2);
+            this.panel10.Controls.Add(this.label12);
+            this.panel10.Controls.Add(this.label15);
+            this.panel10.Controls.Add(this.label3);
+            this.panel10.Controls.Add(this.label4);
+            this.panel10.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel10.ForeColor = System.Drawing.Color.White;
+            this.panel10.Location = new System.Drawing.Point(3, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(329, 432);
+            this.panel10.TabIndex = 41;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(6, 198);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(123, 14);
+            this.label17.TabIndex = 41;
+            this.label17.Text = "Purchase Information";
+            this.label17.Visible = false;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(3, 45);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(94, 14);
+            this.label18.TabIndex = 42;
+            this.label18.Text = "Enter your name";
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.panel13.Controls.Add(this.label19);
+            this.panel13.Controls.Add(this.panel14);
+            this.panel13.Controls.Add(this.button38);
+            this.panel13.Controls.Add(this.label17);
+            this.panel13.Controls.Add(this.label18);
+            this.panel13.Controls.Add(this.label16);
+            this.panel13.Controls.Add(this.textBox1);
+            this.panel13.Controls.Add(this.textBox3);
+            this.panel13.Controls.Add(this.button37);
+            this.panel13.ForeColor = System.Drawing.Color.Black;
+            this.panel13.Location = new System.Drawing.Point(-3, 112);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(350, 377);
+            this.panel13.TabIndex = 43;
+            // 
+            // panel14
+            // 
+            this.panel14.Location = new System.Drawing.Point(9, 112);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(73, 80);
+            this.panel14.TabIndex = 43;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(6, 94);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(123, 14);
+            this.label19.TabIndex = 44;
+            this.label19.Text = "Purchase Information";
+            this.label19.Visible = false;
             // 
             // Form1
             // 
@@ -851,11 +1124,13 @@ namespace Sherwin
             this.Font = new System.Drawing.Font("Yu Gothic", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Sherwin Williams";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.panel11.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -864,6 +1139,10 @@ namespace Sherwin
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -882,7 +1161,6 @@ namespace Sherwin
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtpercent2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel1;
@@ -890,9 +1168,6 @@ namespace Sherwin
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button button5;
@@ -933,6 +1208,32 @@ namespace Sherwin
         private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Panel panel14;
     }
 }
 
